@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { jetBrainsMono } from "../config";
+import { jetBrainsMono, LINKS } from "../config";
 
 export function Header() {
   return (
@@ -28,8 +28,12 @@ export function Header() {
         </div>
       </div>
       <div className="flex gap-5">
-        <Link href="https://github.com/oleksandryalovyi">Github</Link>
-        <Link href="linkedin.com/in/oleksandr-yalovyi-3ba6a1186">LinkedIn</Link>
+        <Link href={LINKS.GITHUB} target="_blank">
+          Github
+        </Link>
+        <Link href={LINKS.LINKEDIN} target="_blank">
+          LinkedIn
+        </Link>
       </div>
     </header>
   );
