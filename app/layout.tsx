@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/src/shared/ui/Header";
-import { NavBar } from "@/src/shared/ui/NavBar";
+import { NavBar } from "@/src/widgets/navBar/ui/NavBar";
 import { Footer } from "@/src/shared/ui/Footer";
 import { jetBrainsMono } from "@/src/shared/config";
 
