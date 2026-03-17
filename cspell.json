@@ -5,7 +5,7 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["steiger", "oleksandr", "yalovyi"],
+  "words": ["steiger", "oleksandr", "yalovyi", "częstochowa", "cursor"],
   "ignorePaths": [
     ".vscode/**",
     "**/dist*/**",
