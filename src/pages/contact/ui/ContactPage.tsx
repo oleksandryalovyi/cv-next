@@ -71,13 +71,11 @@ export function ContactPage() {
         </div>
 
         {/* Footer */}
-        <div className="px-4 py-2 border-t border-zinc-700">
-          <div className="flex items-center gap-2">
-            <span className="text-zinc-400">Send:</span>
-            <button className="text-zinc-400 hover:text-zinc-200 cursor-pointer">
-              [Y]es
-            </button>
-          </div>
+        <div className="px-4 py-4 border-t border-zinc-700 flex items-center gap-2">
+          <span className="text-zinc-400">Send:</span>
+          <button className="text-zinc-200 hover:text-zinc-200 cursor-pointer">
+            [Y]es
+          </button>
         </div>
       </div>
     </div>

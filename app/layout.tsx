@@ -4,6 +4,10 @@ import { Header } from "@/src/shared/ui/Header";
 import { NavBar } from "@/src/widgets/navBar/ui/NavBar";
 import { Footer } from "@/src/shared/ui/Footer";
 import { jetBrainsMono } from "@/src/shared/config";
+import { JetBrains_Mono } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const jetbrainsMono = JetBrains_Mono({subsets:['latin'],variable:'--font-mono'});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={cn("font-mono", jetbrainsMono.variable)}>
       <body className={`h-screen p-2 ${jetBrainsMono.className}`}>
         <div className="border-solid border-2 border-white flex flex-col p-4 h-full">
           <Header />
