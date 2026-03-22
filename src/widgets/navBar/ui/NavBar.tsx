@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import clsx from "classnames";
+import clsx from "clsx";
 import { navBarLinks } from "../config/navbar.links";
 
 export function NavBar() {
