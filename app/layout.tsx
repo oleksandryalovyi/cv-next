@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("font-mono", jetbrainsMono.variable)}>
+    <html lang="en" className={cn("font-mono", jetbrainsMono.variable, "dark")}>
       <body className={`h-screen p-2 ${jetBrainsMono.className}`}>
         <div className="border-solid border-2 border-white flex flex-col p-4 h-full">
           <Header />
